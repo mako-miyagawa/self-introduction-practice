@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介ー宮川真幸</title>
+</head>
+<body>
+    <h1>宮川真幸</h1>
+    <h2>プロフィール</h2>
+        <p>名前：宮川真幸</p>
+        <p>年齢：29歳</p>
+        <p>出身地：神奈川</p>
+        <p>趣味：美容、旅行、ランニング</p>
+    <h2>好きなもの</h2>
+        <ul>
+            <li>ラーメン</li>
+            <li>抹茶のお菓子</li>
+            <li>お酒</li>
+        </ul>
+    <h2>今年の目標</h2>
+        <ol>
+            <li>副業の勉強を毎日する</li>
+            <li>ランニングを続ける</li>
+            <li>間食を減らす</li>
+        </ol>
+    <h2>リンク</h2>
+    <a href="https://github.com/mako-miyagawa/my-first-git.git" target="_blank">私のGitHub</a>
+    <h2>好きな風景</h2>
+        <img src="/Users/mker2179/Desktop/IMG_5653.HEIC" alt="好きな風景" width="400">
+    <h2>お問い合せ</h2>
+        <form action="/submit" method="POST">
+            <label for="name">お名前</label>
+                <input type="text" id="name" placeholder="山田　太郎" required>
+                
+                お問い合せ種別：<select name="categoty">
+                <option value="">--選択してください--</option>
+                <option value="">一般的なお問い合わせ</option>
+                <option value="">ご意見・ご要望</option>
+            <lavel>
+                お問い合せ内容：<textarea name="message" rows="5" placeholder="メッセージを入力してください"></textarea>
+            </lavel>
+            <lavel>
+                <button type="submit">送信する</button>
+            </lavel>
+        </form>
+</body>
+</html>
